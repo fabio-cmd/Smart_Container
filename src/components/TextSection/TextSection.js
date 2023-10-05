@@ -1,12 +1,13 @@
 import React from 'react';
 
-import { TextSectionContainer } from './TextSectionStyles';
+import { Text, TextSectionContainer } from './TextSectionStyles';
 
-const TextSection = () => {
+const TextSection = ({TextSectionRef}) => {
   return (
-        <TextSectionContainer>
-        </TextSectionContainer>
-    
+    <TextSectionContainer>
+      <Text ref={TextSectionRef}>Encontre o container mais próximo de você no mapa. 
+      </Text>
+    </TextSectionContainer>
   );
 };
 
