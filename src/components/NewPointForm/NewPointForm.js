@@ -12,9 +12,10 @@ function NewPointForm() {
   const handleShow = () => setShow(true);
 
   return (
-    <Container className='p-5'>
+    <Container className='p-5' style={{textAlign: 'center'}}>
+      <h1>Não encontrou um ponto próximo à você?</h1>
       <ButtonNewPoint variant="primary" onClick={handleShow}>
-        Solicite aqui um novo ponto de coleta!
+        Solicitar ponto de coleta
       </ButtonNewPoint>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

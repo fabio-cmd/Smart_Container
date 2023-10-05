@@ -13,6 +13,7 @@ export const Text = styled.p`
   line-height: 2em;
   text-align: justify;
   margin-top: 20px;
+  text-align: center;
 
 
 `
