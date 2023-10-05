@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SignupSectionContainer = styled.section`
-  background-color: #fff;
-  padding: 40px;
+  background-color: #000;
+  padding: 150px;
   text-align: center;
 `;
 
