@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 import { HeaderContainer, Logo } from './HeaderStyles.js'
 
