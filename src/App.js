@@ -1,16 +1,16 @@
 import React from 'react';
 
-import TextSection from './components/TextSection/TextSection';
-import SignupSection from './components/SignupSection/SignupSection';
-import Header from './components/Header/Header';
+import Header from './components/Header/Header';  
+import Frame from './components/Frame/Frame';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <TextSection/>
-      <SignupSection/>
+      <Frame/>
+      <Footer/>
     </div>
   );  
 }
